@@ -44,19 +44,6 @@ p {
 .section-title span {
 	color: crimson;
 }
-.first-project {
-	display: inline-block;
-	padding: 5px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid crimson;
-	font-size: 2rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-bottom: 30px;
-	transition: 0.3s ease;
-	transition-property: background-color, color;
-}
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
@@ -328,12 +315,14 @@ p {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
+	align-self: left;
 }
 #services .service-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+	align-content: center;
 }
 #services .service-item p {
 	color: white;
@@ -342,6 +331,27 @@ p {
 /* End Services Section */
 
 /* Projects section */
+.first-project {
+	display: inline-block;
+	padding: 5px 30px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-bottom: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;	
+}
+.weather-button{
+	margin-bottom: -50px;
+}
+.first-project:hover{
+	background-color: #c41d41;
+	border: 3px solid rgb(148, 8, 118);
+
+}
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
